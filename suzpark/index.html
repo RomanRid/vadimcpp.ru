@@ -61,66 +61,8 @@
         Защитить <strong>Суздальский парк</strong> легко. Для этого есть несколько способов.
       </p>
 
-      <!-- Еще раз -->
-      <p class="h1 text-center mt-5"> 1️⃣ </p>
-      <h2 class="text-center mb-4"> Еще раз </h2>
-
-      <p>
-        <b>До 27 июля</b> просим дополнительно перевести оставшуюся часть Суздальского парка в озелененные территории.
-      </p>
-      <p id="copy-hint" class="text-center">
-        Нажми зеленую кнопку
-      </p>
-      <p id="copy-paragraph" class="text-center">
-        <button
-          id="copy-btn"
-          class="btn btn-success"
-          data-clipboard-target="#support-aaa"
-        >
-          Скопировать
-        </button>
-      </p>
-
-      <p id="copy-text-paragraph">
-        <textarea id="support-aaa" rows="6" class="form-control w-100 text-secondary" readonly>
-Поддерживаю и считаю целесообразным перевод шести земельных участков "Суздальского парка" (39:15:132801:228, 39:15:132801:230, 39:15:132801:375, 39:15:132801:45, 39:15:132801:46, 39:15:132801:1253) в озеленённые территории общего пользования. Дополнительно прошу перевести оставшуюся часть "Суздальского парка" (неразграниченный земельный участок между участками 39:15:132801:1253 и 39:15:132801:32 и часть земельного участка 39:15:000000:10245 от ул. Суздальская до участка 39:15:132801:167) в зону озеленённые территории общего пользования.
-        </textarea>
-      </p>
-
-      <p>
-        Открой
-        <a
-          class="all-break"
-          target="_blank"
-          href="https://gov39.ru/working/npa/pnpacomment/8441/4032836689/"
-        >
-          сайт правительства Калининградской области ↗️
-        </a>
-        и вставь текст в поле «Ваш комментарий<span class="text-danger">*</span>».
-      </p>
-      <p>
-        Заполни все необходимые поля, которые отмечены символом <span class="text-danger">*</span>
-        и нажми «Отправить»
-      </p>
-      <p>
-        Оставь комментарий к последнему посту в группах сообщества (например, 🍀 ) — так мы будем знать, что у тебя получилось!
-      </p>
-
-      <!-- Контакты -->
-      <div class="contacts">
-        <a class="contacts__item" href="https://www.instagram.com/suz_les_kld/">
-          <img class="contacts__icon" src="/img/icons/instagram-brands.svg" alt="IG"/>
-        </a>
-        <a class="contacts__item" href="https://vk.com/suzles">
-          <img class="contacts__icon" src="/img/icons/vk-brands.svg" alt="VK"/>
-        </a>
-        <a class="contacts__item" href="https://www.facebook.com/suzlpark">
-          <img class="contacts__icon" src="/img/icons/facebook-brands.svg" alt="FB"/>
-        </a>
-      </div>
-
       <!-- Собери 5 подписей -->
-      <p class="h1 text-center mt-5"> 2️⃣ </p>
+      <p class="h1 text-center mt-5"> 1️⃣ </p>
       <h2 class="text-center mb-4"> Собери 5 подписей </h2>
       <p>
         Скачай
@@ -156,7 +98,7 @@
       </div>
 
       <!-- Посети парк -->
-      <p class="h1 text-center mt-5"> 3️⃣ </p>
+      <p class="h1 text-center mt-5"> 2️⃣ </p>
       <h2 class="text-center mb-4"> Посети парк </h2>
       <p>
         Посети Суздальский парк:
@@ -183,7 +125,7 @@
       </div>
 
       <!-- Подпишись -->
-      <p class="h1 text-center mt-5"> 4️⃣ </p>
+      <p class="h1 text-center mt-5"> 3️⃣ </p>
       <h2 class="text-center mb-4"> Подпишись </h2>
       <p>
         Вместе мы — сила. Присутствие — показатель того,
@@ -222,35 +164,6 @@
       </p>
     </div>
   </div>
-  <script
-    src="https://code.jquery.com/jquery-3.2.1.min.js"
-    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-    crossorigin="anonymous"></script>
-
-  <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.8/dist/clipboard.min.js"></script>
-
-  <script type="text/javascript">
-    $(document).ready(function() {
-      const clipboard = new ClipboardJS('#copy-btn');
-
-      clipboard.on('success', function(e) {
-        console.info('Action:', e.action);
-        console.info('Text:', e.text);
-        console.info('Trigger:', e.trigger);
-
-        e.clearSelection();
-        $("#copy-paragraph").hide();
-        $("#copy-text-paragraph").hide();
-        $("#copy-hint").text("Текст скопирован!");
-      });
-
-      clipboard.on('error', function(e) {
-        alert("Что-то пошло не так! Скопируйте текст путем выделения");
-        console.error('Action:', e.action);
-        console.error('Trigger:', e.trigger);
-      });
-    });
-  </script>
 
   <!-- Yandex.Metrika counter -->
   <script type="text/javascript" >
