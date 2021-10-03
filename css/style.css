@@ -12,7 +12,7 @@
 .final-page {
   align-items: center;
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   min-height: 100%;
   justify-content: center;
   position: relative;
@@ -23,13 +23,13 @@
   position: fixed;
   right: 0;
   bottom: 0;
-  min-width: 100%; 
+  min-width: 100%;
   min-height: 100%;
   z-index: -1;
 }
 
 .separator {
-  color: white;  
+  color: white;
   border-color: white;
   border-bottom: 2px solid;
 }
@@ -49,7 +49,7 @@
 }
 
 .fixed-image-2 {
-    background: no-repeat center center fixed; 
+    background: no-repeat center center fixed;
     background-image: url(/img/devfest-back.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -58,7 +58,7 @@
 }
 
 .fixed-image {
-    background: no-repeat center center fixed; 
+    background: no-repeat center center fixed;
     background-image: url(/img/web-design.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -104,7 +104,7 @@ footer {
 /*@media (min-width: 62em {
    #back-video {
       display:block;
-   } 
+   }
 }*/
 
 /*********************************/
@@ -188,21 +188,21 @@ footer {
 }
 
 .bg-annadeya-cards {
-    background: no-repeat center center fixed; 
+    background: no-repeat center center fixed;
     background-image: url(/img/annadeya-cards-back.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;    
+    background-size: cover;
 }
 
 .bg-landlord {
-    background: no-repeat center center fixed; 
+    background: no-repeat center center fixed;
     background-image: url(/img/landlord-back.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;    
+    background-size: cover;
 }
 
 .bg-video {
@@ -214,12 +214,12 @@ footer {
 }
 
 .bg-new-year {
-  background: no-repeat center center fixed; 
+  background: no-repeat center center fixed;
   background-image: url(/img/kaliningrad-spring.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; 
+  background-size: cover;
 }
 
 /*********************************/
@@ -344,4 +344,9 @@ footer {
 
 .faq_answer {
   margin-bottom: 16px;
+}
+
+.card-icon--cf {
+  position: relative;
+  bottom: 5px;
 }
