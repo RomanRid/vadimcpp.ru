@@ -56,7 +56,9 @@
     <p class="visually-hidden">Персональный сайт</p>
     <!-- TODO: реализовать переключение языков -->
   </header>
+
   <main class="container container-center mt-3">
+    <!-- Катастрофа -->
     <section>
       <h2 class="visually-hidden">Катастрофа</h2>
       <p>
@@ -65,6 +67,8 @@
         я являюсь.
       </p>
     </section>
+
+    <!-- О себе -->
     <section>
       <h2 class="visually-hidden">О себе</h2>
       <p>
@@ -73,24 +77,36 @@
         пострадавшим и поддерживаю людей на местах. Если Вам нужна помощь, свяжитесь со мной.
       </p>
     </section>
-    <section class="d-flex">
-      <img src="/img/avatar.jpg?v2" width="64" height="64" class="rounded" alt="Вадим Канинский"/>
-      <div class="ml-2">
-        <h2 class="h4">Вадим Канинский</h2>
-        <p>программист</p>
+
+    <!-- Контакты -->
+    <section>
+      <h2 class="visually-hidden">Контакты</h2>
+      <div class="d-flex">
+        <img src="/img/avatar.jpg?v2" width="64" height="64" class="rounded" alt="Вадим Канинский"/>
+        <div class="ml-2">
+          <p class="h4">Вадим Канинский</p>
+          <p>программист</p>
+        </div>
       </div>
-    </section>
-    <section class="contacts">
-      <a class="contacts__item" href="https://t.me/vadimcpp">
-        <img class="contacts__icon" src="/img/icons/telegram-plane-brands.svg" alt="TG"/>
-      </a>
-      <a class="contacts__item" href="https://github.com/vadimcpp">
-        <img class="contacts__icon" src="/img/icons/github-brands.svg" alt="GH"/>
-      </a>
+      <ul class="list-unstyled">
+        <li class="pt-2">
+          <a href="https://t.me/vadimcpp" class="btn btn-outline-primary w-100">
+            Написать в телеграм
+            <img width="20" height="20" src="/img/icons/telegram-plane-brands.svg" alt="TG"/>
+          </a>
+        </li>
+        <li class="pt-2">
+          <a href="/gdgcensorbot" class="btn btn-outline-primary w-100">
+            Написать в Facebook
+            <img width="20" height="20" src="/img/icons/facebook-brands.svg" alt="FB"/>
+          </a>
+        </li>
+      </ul>
     </section>
 
-    <section class="pt-4">
-      <h2 id="reference" class="h3 text-center mb-4">
+    <!-- Отзывы -->
+    <section>
+      <h2 id="reference" class="h4">
         <a class="link" href="#reference">
           <img class="link__img" src="/img/icons/link-solid.svg" alt="link"/>
         </a>
@@ -100,96 +116,78 @@
       <div class="row">
         <div class="col-12">
           <!-- Отзыв Анны -->
-          <div class="card mb-3">
-            <div class="card-body">
-              <p>
-                <i>
-                  «Мои сайты, благодаря их создателю Вадиму Канинскому, привлекают клиентов уже несколько лет.
-                  При создании были учтены пожелания: они просты и информативны.
-                  Доступна статистика по заявленным показателям. Обновления выполняются оперативно.
-                  Спасибо за сотрудничество»
-                </i>
-              </p>
-              <p class="mb-0 pb-0">
-                Анна Граб,
-              </p>
-              <p class="mt-0 pt-0 mb-3">
-                <a href="https://annagrab.ru/">annagrab.ru</a>
-              </p>
-            </div>
+          <div class="mb-3">
+            <p>
+              <i>
+                «Мои сайты, благодаря их создателю Вадиму Канинскому, привлекают клиентов уже несколько лет.
+                При создании были учтены пожелания: они просты и информативны.
+                Доступна статистика по заявленным показателям. Обновления выполняются оперативно.
+                Спасибо за сотрудничество»
+              </i>
+            </p>
+            <p class="mb-0 pb-0">
+              Анна Граб,
+            </p>
+            <p class="mt-0 pt-0 mb-3">
+              <a href="https://annagrab.ru/">annagrab.ru</a>
+            </p>
           </div>
         </div>
       </div>
     </section>
 
     <!-- Деятельность -->
-    <section class="pt-4">
-      <h2 id="activity" class="h3 text-center mb-4">
+    <section>
+      <h2 id="activity" class="h4">
         <a class="link" href="#activity">
           <img class="link__img" src="/img/icons/link-solid.svg" alt="link"/>
         </a>
         Деятельность
       </h2>
 
-      <div class="row">
-        <div class="col-12 col-md-6 col-xl-4">
+      <div class="row mb-3">
+        <div class="col-12 col-md-6 col-xl-4 pb-2">
           <!-- gdgCensorbot -->
-          <div class="card text-center mb-3">
-            <div class="card-body">
-              <h5 class="card-title">
-                <img class="rounded mr-1" src="/img/projects/gdgcensorbot-192x192.png" width="24" height="24" alt='gdgcensorbot'>
-                gdgcensorbot
-              </h5>
-              <p class="card-text">Цензор-бот</p>
-              <p class="card-text"><a href="/gdgcensorbot" class="btn btn-outline-primary">Подробнее</a></p>
-            </div>
-          </div>
+          <a href="/gdgcensorbot" class="btn btn-outline-primary w-100 text-left">
+            <span>
+              <img class="rounded mr-1" src="/img/projects/gdgcensorbot-192x192.png" width="24" height="24" alt='gdgcensorbot'>
+              Цензор-бот
+            </span>
+          </a>
         </div>
-        <div class="col-12 col-md-6 col-xl-4">
+        <div class="col-12 col-md-6 col-xl-4 pb-2">
           <!-- events4friends -->
-          <div class="card text-center mb-3">
-            <div class="card-body">
-              <h5 class="card-title">
-                <img class="rounded mr-1" src="/img/projects/events4friends_peace-192x192.jpg" width="24" height="24" alt='events4friends'>
-                events4friends
-              </h5>
-              <p class="card-text">Жизнь сообществ</p>
-              <p class="card-text"><a href="/events4friends" class="btn btn-outline-primary">Подробнее</a></p>
-            </div>
-          </div>
+          <a href="/events4friends" class="btn btn-outline-primary w-100 text-left">
+            <span>
+              <img class="rounded mr-1" src="/img/projects/events4friends_peace-192x192.jpg" width="24" height="24" alt='events4friends'>
+              Жизнь сообществ
+            </span>
+          </a>
         </div>
-        <div class="col-12 col-md-6 col-xl-4">
+        <div class="col-12 col-md-6 col-xl-4 pb-2">
           <!-- frontendbasics -->
-          <div class="card text-center mb-3">
-            <div class="card-body">
-              <h5 class="card-title">
-                <img class="rounded mr-1" src="/img/projects/frontendbasics-192x192.jpeg" width="24" height="24" alt='frontendbasics'>
-                frontendbasics
-              </h5>
-              <p class="card-text">Образовательное пространство</p>
-              <p class="card-text"><a href="/frontendbasics" class="btn btn-outline-primary">Подробнее</a></p>
-            </div>
-          </div>
+          <a href="/frontendbasics" class="btn btn-outline-primary w-100 text-left">
+            <span>
+              <img class="rounded mr-1" src="/img/projects/frontendbasics-192x192.jpeg" width="24" height="24" alt='frontendbasics'>
+              Образовательное пространство
+            </span>
+          </a>
         </div>
-        <div class="col-12 col-md-6 col-xl-4">
+        <div class="col-12 col-md-6 col-xl-4 pb-2">
           <!-- suzpark -->
-          <div class="card text-center mb-3">
-            <div class="card-body">
-              <h5 class="card-title">
-                <img class="rounded mr-1" src="/img/projects/suzpark-192x192.jpeg" width="24" height="24" alt='Суздальский парк'>
-                Суздальский парк
-              </h5>
-              <p class="card-text">Зеленая территория</p>
-              <p class="card-text"><a href="/suzpark" class="btn btn-outline-primary">Подробнее</a></p>
-            </div>
-          </div>
+          <a href="/suzpark" class="btn btn-outline-primary w-100 text-left">
+            <span>
+              <img class="rounded mr-1" src="/img/projects/suzpark-192x192.jpeg" width="24" height="24" alt='Суздальский парк'>
+              Суздальский парк
+            </span>
+          </a>
         </div>
       </div>
     </section>
 
     <!-- Поддержка -->
-    <section class="pt-4">
-      <h2 id="support" class="h3 text-center mb-4">
+    <section>
+      <h2 id="support" class="h4">
         <a class="link" href="#support">
           <img class="link__img" src="/img/icons/link-solid.svg" alt="link"/>
         </a>
@@ -197,26 +195,22 @@
       </h2>
       <div class="row">
         <div class="col-12">
-          <div class="card mb-3">
-            <div class="card-body">
-              <p>
-                Этот раздел создан для популяризации регулярных пожертвований.
-                В связи с отключением платежной системы SWIFT, разные гражданские
-                инициативы по всему миру остались без моей поддержки.
-              </p>
-              <p>
-                Вот, что осталось ⬇️
-              </p>
-              <ul>
-                <li>
-                  <a href="https://vk.com/velosreda39">Велосреда</a> - выходной среди недели.
-                </li>
-                <li>
-                  Православный священник <a href="https://www.instagram.com/alexandr_permiakov39/">Александр Пермяков</a>.
-                </li>
-              </ul>
-            </div>
-          </div>
+          <p>
+            Этот раздел создан для популяризации регулярных пожертвований.
+            В связи с отключением платежной системы SWIFT, разные гражданские
+            инициативы по всему миру остались без моей поддержки.
+          </p>
+          <p>
+            Вот, что осталось ⬇️
+          </p>
+          <ul>
+            <li>
+              <a href="https://vk.com/velosreda39">Велосреда</a> - выходной среди недели.
+            </li>
+            <li>
+              Православный священник <a href="https://www.instagram.com/alexandr_permiakov39/">Александр Пермяков</a>.
+            </li>
+          </ul>
         </div>
       </div>
     </section>
