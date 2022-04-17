@@ -51,31 +51,28 @@
 </head>
 
 <body>
-  <header class="container container-center">
+  <header class="container container-center bg-dark text-light p-3">
     <h1 class="visually-hidden">Вадим Канинский</h1>
-    <p class="visually-hidden">Персональный сайт</p>
+    <p class="h4">Персональный сайт</p>
     <!-- TODO: реализовать переключение языков -->
   </header>
 
   <main class="container container-center mt-3">
-    <!-- Катастрофа -->
+    <!-- О себе и о катастрофе -->
     <section>
-      <h2 class="visually-hidden">Катастрофа</h2>
-      <p>
-        Привет. <time datetime="2022-02-24 05:00">24 февраля 2022 года рано утром</time>
-        произошла катастрофа — начался военный конфликт между странами, гражданином которых
-        я являюсь.
-      </p>
-    </section>
-
-    <!-- О себе -->
-    <section>
-      <h2 class="visually-hidden">О себе</h2>
-      <p>
-        Мне повезло — я жив, здоров и нахожусь в условной безопасности. У меня
-        есть возможность помогать тем, кому повезло меньше. Я создаю социальные проекты для помощи
-        пострадавшим и поддерживаю людей на местах. Если Вам нужна помощь, свяжитесь со мной.
-      </p>
+      <h2 class="visually-hidden">О себе и о катастрофе</h2>
+      <div class="row mb-5">
+        <div class="col-12 col-md-6 pt-2">
+          Привет. <time datetime="2022-02-24 05:00">24 февраля 2022 года рано утром</time>
+          произошла катастрофа — начался военный конфликт между странами, гражданином которых
+          я являюсь.
+        </div>
+        <div class="col-12 col-md-6 pt-2">
+          Мне повезло — я жив, здоров и нахожусь в условной безопасности. У меня
+          есть возможность помогать тем, кому повезло меньше. Я создаю социальные проекты для помощи
+          пострадавшим и поддерживаю людей на местах. Если Вам нужна помощь, свяжитесь со мной.
+        </div>
+      </div>
     </section>
 
     <!-- Контакты -->
@@ -88,20 +85,20 @@
           <p>программист</p>
         </div>
       </div>
-      <ul class="list-unstyled">
-        <li class="pt-2">
+      <div class="row mb-5">
+        <div class="col-12 col-md-6 col-xl-4 pt-2">
           <a href="https://t.me/vadimcpp" class="btn btn-outline-primary w-100">
             Написать в телеграм
             <img width="20" height="20" src="/img/icons/telegram-plane-brands.svg" alt="TG"/>
           </a>
-        </li>
-        <li class="pt-2">
+        </div>
+        <div class="col-12 col-md-6 col-xl-4 pt-2">
           <a href="/gdgcensorbot" class="btn btn-outline-primary w-100">
             Написать в Facebook
             <img width="20" height="20" src="/img/icons/facebook-brands.svg" alt="FB"/>
           </a>
-        </li>
-      </ul>
+        </div>
+      </div>
     </section>
 
     <!-- Отзывы -->
@@ -116,7 +113,7 @@
       <div class="row">
         <div class="col-12">
           <!-- Отзыв Анны -->
-          <div class="mb-3">
+          <div class="mb-5">
             <p>
               <i>
                 «Мои сайты, благодаря их создателю Вадиму Канинскому, привлекают клиентов уже несколько лет.
@@ -128,7 +125,7 @@
             <p class="mb-0 pb-0">
               Анна Граб,
             </p>
-            <p class="mt-0 pt-0 mb-3">
+            <p class="mt-0 pt-0 mb-5">
               <a href="https://annagrab.ru/">annagrab.ru</a>
             </p>
           </div>
@@ -145,7 +142,7 @@
         Деятельность
       </h2>
 
-      <div class="row mb-3">
+      <div class="row mb-5">
         <div class="col-12 col-md-6 col-xl-4 pb-2">
           <!-- gdgCensorbot -->
           <a href="/gdgcensorbot" class="btn btn-outline-primary w-100 text-left">
@@ -215,6 +212,9 @@
       </div>
     </section>
   </main>
+  <footer class="container container-center bg-dark text-light text-right p-3 pb-5 mt-5">
+    <i>Худой мир лучше доброй войны<br>(народная поговорка)</i>
+  </footer>
 
   <!-- Yandex.Metrika counter -->
   <script>
