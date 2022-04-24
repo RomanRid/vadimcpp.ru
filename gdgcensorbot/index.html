@@ -13,7 +13,7 @@
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
 
-  <meta name="description" content="Цензор-бот бережно вырезает нецензурную речь из чатов. Сверхточный словарь. Интергация в мобильные приложения и сайты. Работает в телеграм-чатах по всему миру.">  
+  <meta name="description" content="Цензор-бот бережно вырезает нецензурную речь из чатов. Сверхточный словарь. Интергация в мобильные приложения и сайты. Работает в телеграм-чатах по всему миру.">
 
   <!-- Facebook Meta Tags  -->
   <meta property="og:type" content="website">
@@ -51,20 +51,24 @@
 <body>
   <div class="container container-center mt-3">
     <div class="bg-light m-2 p-3 rounded">
-      <div class="d-flex justify-content-center">        
+      <div class="d-flex justify-content-center">
         <img class="img-fluid rounded" src="/img/projects/gdgcensorbot-192x192.png" alt="gdgcensorbot" />
       </div>
-      <h1 class="h2 mt-2 mb-3 text-center">        
+      <h1 class="h2 mt-2 mb-3 text-center">
         Телеграм бот «Цензор-бот»
       </h1>
       <p>
         <span>
-          Бот бережно вырезает нецензурную речь из чатов. Перейдите в раздел "Быстрый тест" и нажмите кнопку "Вырезать маты" ⬇️
+          В связи со сложившимся пиздецом язык вражды запрещен.
+          Никаких москалей, бендеровцев, рашистов и рагулей.
+          Несогласные добро пожаловать нахуй. Слово «смерть» запрещено!
+          Бот продолжает бережно вырезать нецензурную речь из чатов.
+          Перейдите в раздел "Быстрый тест" и нажмите кнопку "Вырезать маты" ⬇️
         </span>
       </p>
       <!-- <p class="pt-4">
         Бот появился на свет 21 февраля 2018 года на хакатоне
-        <a href="https://vk.com/@konighack-knig-hack-2018-kak-eto-bylo">König Hack-2018</a>.        
+        <a href="https://vk.com/@konighack-knig-hack-2018-kak-eto-bylo">König Hack-2018</a>.
       </p> -->
 
       <h2 class="text-center"> Быстрый тест </h2>
@@ -74,9 +78,9 @@
       <p>
         <a id="btn-test" href="javascript:;" class="btn btn-outline-secondary px-5 w-100">
           <img src="/img/gdg-loading.gif" id="js-test-ico" style="display: none;">
-          <span id="js-test-text">Вырезать маты</span> 
+          <span id="js-test-text">Вырезать маты</span>
         </a>
-      </p>    
+      </p>
       <p>
         <textarea id="result-area" rows="4" class="form-control w-100 text-secondary" disabled>Тут будет результат</textarea>
       </p>
@@ -141,7 +145,7 @@
                 if (data.censored) {
                   $("#result-area")[0].value = data.result;
                 } else if (data.error) {
-                  alert(data.error); 
+                  alert(data.error);
                 } else {
                   alert('Ваш текст не содержит нецензурных выражений!');
                 }
@@ -154,7 +158,7 @@
           alert('Напиши что-нибудь нецензурное не менее 10 символов');
           $("#test-area")[0].focus();
         }
-      });    
+      });
     });
   </script>
 
