@@ -52,10 +52,14 @@
 
 <body>
   <header class="bg-dark text-light p-3">
+    <h1 class="visually-hidden">Вадим Канинский</h1>
     <div class="container container-center">
-      <h1 class="visually-hidden">Вадим Канинский</h1>
-      <p class="h4">Персональный сайт</p>
-      <!-- TODO: реализовать переключение языков -->
+      <div class="row">
+        <div class="col-12 offset-md-3 col-md-6 offset-xl-4 col-xl-4">
+          <p class="h4">Персональный сайт</p>
+          <!-- TODO: реализовать переключение языков -->
+        </div>
+      </div>
     </div>
   </header>
 
@@ -64,7 +68,7 @@
     <section>
       <h2 class="visually-hidden">О себе и о катастрофе</h2>
       <div class="row mb-5">
-        <div class="col-12 col-md-6 pt-2">
+        <div class="col-12 offset-md-3 col-md-6 offset-xl-4 col-xl-4 pb-2">
           Сайт обновлен в связи с событиями <time datetime="2022-02-24 05:00">24 февраля 2022 года</time>.
           Мне повезло — я жив, здоров и нахожусь в условной безопасности. У меня
           есть возможность помогать тем, кому повезло меньше. Я создаю социальные проекты для помощи
@@ -76,21 +80,25 @@
     <!-- Контакты -->
     <section>
       <h2 class="visually-hidden">Контакты</h2>
-      <div class="d-flex">
-        <img src="/img/avatar.jpg?v2" width="64" height="64" class="rounded" alt="Вадим Канинский"/>
-        <div class="ml-2">
-          <p class="h4">Вадим Канинский</p>
-          <p>программист</p>
+      <div class="row">
+        <div class="col-12 offset-md-3 col-md-6 offset-xl-4 col-xl-4 pb-2">
+          <div class="d-flex">
+            <img src="/img/avatar.jpg?v2" width="64" height="64" class="rounded" alt="Вадим Канинский"/>
+            <div class="ml-2">
+              <p class="h4">Вадим Канинский</p>
+              <p>программист</p>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="row mb-5">
-        <div class="col-12 col-md-6 col-xl-4 pt-2">
+      <div class="row mb-4">
+        <div class="col-12 offset-md-3 col-md-6 offset-xl-4 col-xl-4 pb-2">
           <a href="https://t.me/vadimcpp" class="btn btn-outline-primary w-100">
             Написать в телеграм
             <img width="20" height="20" src="/img/icons/telegram-plane-brands.svg" alt="TG"/>
           </a>
         </div>
-        <div class="col-12 col-md-6 col-xl-4 pt-2">
+        <div class="col-12 offset-md-3 col-md-6 offset-xl-4 col-xl-4 pb-2">
           <a href="/gdgcensorbot" class="btn btn-outline-primary w-100">
             Написать в Facebook
             <img width="20" height="20" src="/img/icons/facebook-brands.svg" alt="FB"/>
@@ -101,47 +109,47 @@
 
     <!-- Отзывы -->
     <section>
-      <h2 id="reference" class="h4">
-        <a class="link" href="#reference">
-          <img class="link__img" src="/img/icons/link-solid.svg" alt="link"/>
-        </a>
-        Отзывы
-      </h2>
-
-      <div class="row">
-        <div class="col-12 col-md-6">
+      <div class="row mb-4">
+        <div class="col-12 offset-md-3 col-md-6 offset-xl-4 col-xl-4 pb-2">
+          <h2 id="reference" class="h4">
+            <a class="link" href="#reference">
+              <img class="link__img" src="/img/icons/link-solid.svg" alt="link"/>
+            </a>
+            Отзывы
+          </h2>
+        </div>
+        <div class="col-12 offset-md-3 col-md-6 offset-xl-4 col-xl-4">
           <!-- Отзыв Анны -->
-          <div class="mb-5">
-            <p>
-              <i>
-                «Мои сайты, благодаря их создателю Вадиму Канинскому, привлекают клиентов уже несколько лет.
-                При создании были учтены пожелания: они просты и информативны.
-                Доступна статистика по заявленным показателям. Обновления выполняются оперативно.
-                Спасибо за сотрудничество»
-              </i>
-            </p>
-            <p class="mb-0 pb-0">
-              Анна Граб,
-            </p>
-            <p class="mt-0 pt-0 mb-5">
-              <a href="https://annagrab.ru/">annagrab.ru</a>
-            </p>
-          </div>
+          <p>
+            <i>
+              «Мои сайты, благодаря их создателю Вадиму Канинскому, привлекают клиентов уже несколько лет.
+              При создании были учтены пожелания: они просты и информативны.
+              Доступна статистика по заявленным показателям. Обновления выполняются оперативно.
+              Спасибо за сотрудничество»
+            </i>
+          </p>
+          <p class="mb-0 pb-0">
+            Анна Граб,
+          </p>
+          <p class="mt-0 pt-0">
+            <a href="https://annagrab.ru/">annagrab.ru</a>
+          </p>
         </div>
       </div>
     </section>
 
     <!-- Деятельность -->
     <section>
-      <h2 id="activity" class="h4">
-        <a class="link" href="#activity">
-          <img class="link__img" src="/img/icons/link-solid.svg" alt="link"/>
-        </a>
-        Деятельность
-      </h2>
-
       <div class="row mb-5">
-        <div class="col-12 col-md-6 col-xl-4 pb-2">
+        <div class="col-12 offset-md-3 col-md-6 offset-xl-4 col-xl-4 pb-2">
+          <h2 id="activity" class="h4">
+            <a class="link" href="#activity">
+              <img class="link__img" src="/img/icons/link-solid.svg" alt="link"/>
+            </a>
+            Деятельность
+          </h2>
+        </div>
+        <div class="col-12 offset-md-3 col-md-6 offset-xl-4 col-xl-4 pb-2">
           <!-- gdgCensorbot -->
           <a href="/gdgcensorbot" class="btn btn-outline-primary w-100 text-left">
             <span>
@@ -150,7 +158,7 @@
             </span>
           </a>
         </div>
-        <div class="col-12 col-md-6 col-xl-4 pb-2">
+        <div class="col-12 offset-md-3 col-md-6 offset-xl-4 col-xl-4 pb-2">
           <!-- events4friends -->
           <a href="/events4friends" class="btn btn-outline-primary w-100 text-left">
             <span>
@@ -159,7 +167,7 @@
             </span>
           </a>
         </div>
-        <div class="col-12 col-md-6 col-xl-4 pb-2">
+        <div class="col-12 offset-md-3 col-md-6 offset-xl-4 col-xl-4 pb-2">
           <!-- frontendbasics -->
           <a href="/frontendbasics" class="btn btn-outline-primary w-100 text-left">
             <span>
@@ -168,7 +176,7 @@
             </span>
           </a>
         </div>
-        <div class="col-12 col-md-6 col-xl-4 pb-2">
+        <div class="col-12 offset-md-3 col-md-6 offset-xl-4 col-xl-4 pb-2">
           <!-- suzpark -->
           <a href="/suzpark" class="btn btn-outline-primary w-100 text-left">
             <span>
@@ -179,40 +187,14 @@
         </div>
       </div>
     </section>
-
-    <!-- Поддержка -->
-    <section>
-      <h2 id="support" class="h4">
-        <a class="link" href="#support">
-          <img class="link__img" src="/img/icons/link-solid.svg" alt="link"/>
-        </a>
-        Пожертвования
-      </h2>
-      <div class="row">
-        <div class="col-12">
-          <p>
-            Этот раздел создан для популяризации регулярных пожертвований.
-            В связи с отключением платежной системы SWIFT, разные гражданские
-            инициативы по всему миру остались без моей поддержки.
-          </p>
-          <p>
-            Вот, что осталось ⬇️
-          </p>
-          <ul>
-            <li>
-              <a href="https://vk.com/velosreda39">Велосреда</a> - выходной среди недели.
-            </li>
-            <li>
-              Православный священник <a href="https://www.instagram.com/alexandr_permiakov39/">Александр Пермяков</a>.
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section>
   </main>
   <footer class="bg-dark text-light text-right p-3 pb-5 mt-5">
     <div class="container container-center">
-      <i>Худой мир лучше доброй войны<br>(народная поговорка)</i>
+      <div class="row">
+        <div class="col-12 offset-md-3 col-md-6 offset-xl-4 col-xl-4">
+          <i>Худой мир лучше доброй войны<br>(народная поговорка)</i>
+        </div>
+      </div>
     </div>
   </footer>
 
