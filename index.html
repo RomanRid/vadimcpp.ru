@@ -46,29 +46,29 @@
     gtag('config', 'G-Q3FNCZ1ELQ');
   </script>
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="/css/style.css">
+  <link rel="stylesheet" type="text/css" href="./css/bemstyle.css">
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
 </head>
 
 <body>
-  <header class="bg-dark text-light p-3">
-    <h1 class="visually-hidden">Вадим Канинский</h1>
-    <div class="container container-center">
-      <div class="row">
-        <div class="col-12 offset-md-3 col-md-6 offset-xl-4 col-xl-4">
-          <p class="h4">Персональный сайт</p>
+  <header class="header">
+    <h1 class="header__title_hidden">Вадим Канинский</h1>
+    <div class="container header__container">
+      <div class="row header__row">
+        <div class="col header__col">
+          <h4>Персональный сайт</h4>
           <!-- TODO: реализовать переключение языков -->
         </div>
       </div>
     </div>
   </header>
 
-  <main class="container container-center mt-3">
+  <main class="main container container_margin_top">
     <!-- О себе и о катастрофе -->
     <section>
-      <h2 class="visually-hidden">О себе и о катастрофе</h2>
-      <div class="row mb-5">
-        <div class="col-12 offset-md-3 col-md-6 offset-xl-4 col-xl-4 pb-2">
+      <h2 class="main__title_hidden">О себе и о катастрофе</h2>
+      <div class="row main__row main__row_margin_bottom">
+        <div class="col main__col main__col_padding_bottom">
           Сайт обновлен в связи с событиями <time datetime="2022-02-24 05:00">24 февраля 2022 года</time>.
           Мне повезло — я жив, здоров и нахожусь в условной безопасности. У меня
           есть возможность помогать тем, кому повезло меньше. Я создаю социальные проекты для помощи
@@ -79,29 +79,29 @@
 
     <!-- Контакты -->
     <section>
-      <h2 class="visually-hidden">Контакты</h2>
-      <div class="row">
-        <div class="col-12 offset-md-3 col-md-6 offset-xl-4 col-xl-4 pb-2">
-          <div class="d-flex">
-            <img src="/img/avatar.jpg?v2" width="64" height="64" class="rounded" alt="Вадим Канинский"/>
-            <div class="ml-2">
-              <p class="h4">Вадим Канинский</p>
+      <h2 class="main__title_hidden">Контакты</h2>
+      <div class="row main__row">
+        <div class="col main__col main__col_padding_bottom">
+          <div class="main__card">
+            <img src="./img/avatar.jpg?v2" width="64" height="64" class="rounded" alt="Вадим Канинский"/>
+            <div class="main__disc_margin_left">
+              <h4>Вадим Канинский</h4>
               <p>программист</p>
             </div>
           </div>
         </div>
       </div>
-      <div class="row mb-4">
-        <div class="col-12 offset-md-3 col-md-6 offset-xl-4 col-xl-4 pb-2">
-          <a href="https://t.me/vadimcpp" class="btn btn-outline-primary w-100">
+      <div class="row main__row main__row_margin_bottom">
+        <div class="col main__col main__col_padding_bottom">
+          <a href="https://t.me/vadimcpp" class="main__button main__button_outline_primary main__button_width_100">
             Написать в телеграм
-            <img width="20" height="20" src="/img/icons/telegram-plane-brands.svg" alt="TG"/>
+            <img width="20" height="20" src="./img/icons/telegram-plane-brands.svg" alt="TG"/>
           </a>
         </div>
-        <div class="col-12 offset-md-3 col-md-6 offset-xl-4 col-xl-4 pb-2">
-          <a href="/gdgcensorbot" class="btn btn-outline-primary w-100">
+        <div class="col main__col main__col_padding_bottom">
+          <a href="/gdgcensorbot" class="main__button main__button_outline_primary main__button_width_100">
             Написать в Facebook
-            <img width="20" height="20" src="/img/icons/facebook-brands.svg" alt="FB"/>
+            <img width="20" height="20" src="./img/icons/facebook-brands.svg" alt="FB"/>
           </a>
         </div>
       </div>
@@ -109,16 +109,16 @@
 
     <!-- Отзывы -->
     <section>
-      <div class="row mb-4">
-        <div class="col-12 offset-md-3 col-md-6 offset-xl-4 col-xl-4 pb-2">
-          <h2 id="reference" class="h4">
-            <a class="link" href="#reference">
-              <img class="link__img" src="/img/icons/link-solid.svg" alt="link"/>
+      <div class="row main__row main__row_margin_bottom">
+        <div class="col main__col main__col_padding_bottom">
+          <h4 id="reference">
+            <a class="main__link" href="#reference">
+              <img class="main__img" src="./img/icons/link-solid.svg" alt="link"/>
             </a>
             Отзывы
-          </h2>
+          </h4>
         </div>
-        <div class="col-12 offset-md-3 col-md-6 offset-xl-4 col-xl-4">
+        <div class="col main__col">
           <!-- Отзыв Анны -->
           <p>
             <i>
@@ -128,10 +128,10 @@
               Спасибо за сотрудничество»
             </i>
           </p>
-          <p class="mb-0 pb-0">
+          <p class="main__paragraph_no_bottom_margins_paddings">
             Анна Граб,
           </p>
-          <p class="mt-0 pt-0">
+          <p class="main__paragraph_no_top_margins_paddings">
             <a href="https://annagrab.ru/">annagrab.ru</a>
           </p>
         </div>
@@ -140,47 +140,47 @@
 
     <!-- Деятельность -->
     <section>
-      <div class="row mb-5">
-        <div class="col-12 offset-md-3 col-md-6 offset-xl-4 col-xl-4 pb-2">
-          <h2 id="activity" class="h4">
-            <a class="link" href="#activity">
-              <img class="link__img" src="/img/icons/link-solid.svg" alt="link"/>
+      <div class="row main__row main__row_margin_bottom">
+        <div class="col main__col main__col_padding_bottom">
+          <h4 id="activity">
+            <a class="main__link" href="#activity">
+              <img class="main__img" src="./img/icons/link-solid.svg" alt="link"/>
             </a>
             Деятельность
-          </h2>
+          </h4>
         </div>
-        <div class="col-12 offset-md-3 col-md-6 offset-xl-4 col-xl-4 pb-2">
+        <div class="col main__col main__col_padding_bottom">
           <!-- gdgCensorbot -->
-          <a href="/gdgcensorbot" class="btn btn-outline-primary w-100 text-left">
+          <a href="/gdgcensorbot" class="main__button main__button_outline_primary main__button_width_100 main__button_text_left">
             <span>
-              <img class="rounded mr-1" src="/img/projects/gdgcensorbot-192x192.png" width="24" height="24" alt='gdgcensorbot'>
+              <img class="rounded mr-1" src="./img/projects/gdgcensorbot-192x192.png" width="24" height="24" alt='gdgcensorbot'>
               Цензор-бот
             </span>
           </a>
         </div>
-        <div class="col-12 offset-md-3 col-md-6 offset-xl-4 col-xl-4 pb-2">
+        <div class="col main__col main__col_padding_bottom">
           <!-- events4friends -->
-          <a href="/events4friends" class="btn btn-outline-primary w-100 text-left">
+          <a href="/events4friends" class="main__button main__button_outline_primary main__button_width_100 main__button_text_left">
             <span>
-              <img class="rounded mr-1" src="/img/projects/events4friends_peace-192x192.jpg" width="24" height="24" alt='events4friends'>
+              <img class="rounded mr-1" src="./img/projects/events4friends_peace-192x192.jpg" width="24" height="24" alt='events4friends'>
               Жизнь сообществ
             </span>
           </a>
         </div>
-        <div class="col-12 offset-md-3 col-md-6 offset-xl-4 col-xl-4 pb-2">
+        <div class="col main__col main__col_padding_bottom">
           <!-- frontendbasics -->
-          <a href="/frontendbasics" class="btn btn-outline-primary w-100 text-left">
+          <a href="/frontendbasics" class="main__button main__button_outline_primary main__button_width_100 main__button_text_left">
             <span>
-              <img class="rounded mr-1" src="/img/projects/frontendbasics-192x192.jpeg" width="24" height="24" alt='frontendbasics'>
+              <img class="rounded mr-1" src="./img/projects/frontendbasics-192x192.jpeg" width="24" height="24" alt='frontendbasics'>
               Образовательное пространство
             </span>
           </a>
         </div>
-        <div class="col-12 offset-md-3 col-md-6 offset-xl-4 col-xl-4 pb-2">
+        <div class="col main__col main__col_padding_bottom">
           <!-- suzpark -->
-          <a href="/suzpark" class="btn btn-outline-primary w-100 text-left">
+          <a href="/suzpark" class="main__button main__button_outline_primary main__button_width_100 main__button_text_left">
             <span>
-              <img class="rounded mr-1" src="/img/projects/suzpark-192x192.jpeg" width="24" height="24" alt='Суздальский парк'>
+              <img class="rounded mr-1" src="./img/projects/suzpark-192x192.jpeg" width="24" height="24" alt='Суздальский парк'>
               Суздальский парк
             </span>
           </a>
@@ -188,10 +188,10 @@
       </div>
     </section>
   </main>
-  <footer class="bg-dark text-light text-right p-3 pb-5 mt-5">
-    <div class="container container-center">
+  <footer class="footer">
+    <div class="container">
       <div class="row">
-        <div class="col-12 offset-md-3 col-md-6 offset-xl-4 col-xl-4">
+        <div class="col">
           <i>Худой мир лучше доброй войны<br>(народная поговорка)</i>
         </div>
       </div>
