@@ -85,6 +85,15 @@ a {
   margin-top:1rem;
 }
 
+.contacts {
+  display: flex;
+}
+
+.contacts__icon {
+  width:8rem;
+  height:5rem;
+}
+
 .main__card {
   display:flex;
 }
