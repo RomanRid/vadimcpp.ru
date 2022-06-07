@@ -90,8 +90,8 @@ a {
 }
 
 .contacts__icon {
-  width:8rem;
-  height:5rem;
+  width: 48px;
+  height: 48px;
 }
 
 .main__card {
@@ -238,7 +238,7 @@ a {
     max-width:960px
   }
 }
-  
+
 @media (min-width:1200px)
 {
   .container {
