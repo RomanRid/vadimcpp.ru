@@ -87,11 +87,18 @@ a {
 
 .contacts {
   display: flex;
+  justify-content: center;
 }
 
 .contacts__icon {
   width: 48px;
   height: 48px;
+  margin: 10px;
+  padding: 5px;
+  border: 1px solid #aaa;
+  background-color: #eee;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .main__card {
